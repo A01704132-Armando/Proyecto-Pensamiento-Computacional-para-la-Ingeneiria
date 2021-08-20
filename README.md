@@ -29,23 +29,37 @@ Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a tr
 
 ### Sub-algoritmo 1
 E0 (resp_usuario, resp_correcta)
-\ncont_mate=0
-\nsi resp_usuario==resp_correcta
-  \nimprime ("Correcto, eres muy listo")
-  \ncont_mate= cont_mate+1
-\nsi no entoncee
- \nimprime ("Mal, que lástima")
-  \nEF(imprime ("resp_correcta"))
+
+cont_mate=0
+
+si resp_usuario==resp_correcta
+
+  imprime ("Correcto, eres muy listo")
+  
+  cont_mate= cont_mate+1
+  
+si no entonces
+
+ imprime ("Mal, que lástima")
+ 
+  EF(imprime ("resp_correcta"))
   
   
 ### Sub-algoritmo 2
 E0 (resp_usuario, resp_correcta)
+
 cont_lin=0
+
 si resp_usuario==resp_correcta
+
   imprime ("Correcto, eres muy listo")
+  
   cont_lin= cont_lin+1
+  
 si no entonces
+
   imprime ("Mal, que lástima")
+  
   EF(imprime ("resp_correcta"))
 
   
@@ -53,43 +67,66 @@ si no entonces
 
 E0(Nombre, edad)
 
+
 imprime ("Bienvenido a este test de inteligencia")
+
 imprime ("Sección: Matemáticas")
 
 imprime (Pregunta 1)
+
 Sub-algoritmo 1
+
 imprime (Pregunta 2)
+
 Sub-algoritmo 1
 
 si cont_mate=2
+
   imprime ("Pregunta 3 versión difícil")
+  
   Subalgoritmo 1
+  
 si no entonces
+
   imprime ("Pregunta 3 versión fácil")
+  
   Sub-algoritmo 1
   
 imprime ("Sección: Lingüística")
+
 imprime (Pregunta 1)
+
 Sub-algoritmo 2
+
 imprime (Pregunta 2)
+
 Sub-algoritmo 2
 
 si cont_lin=2
+
   imprime ("Pregunta 3 versión difícil")
+  
   Subalgoritmo 2
+  
 si no entonces
+
   imprime ("Pregunta 3 versión fácil")
+  
   Sub-algoritmo 2
   
 
 Si cont_mate>cont_lin
+
   imprime ("Tu inteligencia dominante sin duda es la matemática, se nota que se te dan los números :D")
   
 Si cont_mate<cont_lin
+
   imprime("Tu inteligencia dominante sin duda es la lingüística, eres todo un poeta :p")
  
 Si no
+
 imprime ("Dominas ambas inteligencias por igual")
+
 
 EF (Rregresa cont_mate y cont_lin)
   
