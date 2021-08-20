@@ -27,7 +27,7 @@ Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a tr
 
 ### Algoritmo
 
-## Sub-algoritmo 1
+### Sub-algoritmo 1
 E0 (resp_usuario, resp_correcta)
 cont_mate=0
 si resp_usuario==resp_correcta
@@ -37,7 +37,7 @@ si no entonces
   imprime ("Mal, que lástima")
   EF(imprime ("resp_correcta"))
   
-## Sub-algoritmo 2
+### Sub-algoritmo 2
 E0 (resp_usuario, resp_correcta)
 cont_lin=0
 si resp_usuario==resp_correcta
@@ -48,7 +48,7 @@ si no entonces
   EF(imprime ("resp_correcta"))
 
   
-## Algoritmo
+### Algoritmo
 
 E0(Nombre, edad)
 
