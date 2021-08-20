@@ -20,14 +20,14 @@ Naturalista: Habilidad para el pensamiento científico, para observar la natural
 Fuente: 
 CEOLEVEL. (26 de Agosto de 2016). 8 Inteligencias – La teoría de las inteligencias múltiples. Obtenido de CEOLEVEL: https://www.ceolevel.com/8-inteligencias-la-teoria-de-las-inteligencias-multiples
 
-#Mi programa
+### Mi programa
 
 Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a través de ceirtas preguntas relacionadas al tema. Para evaluar cada inteligencia se presentarán 3 preguntas, donde si el usuario tuvo bien las 2 preguntas iniciales, la tercera será más complicada o si solo tuvo una bien o ninguna, la computadora arrojará una pregunta más facil. Al final se te darán tus resultados y una breve frase diciendo cual es tu inteligencia dominante o te dirá que ambas de tus inteligencias están igual de desarrolladas en caso de no tener una dominante.
 
 
-#Algoritmo
+### Algoritmo
 
-###Sub-algoritmo 1
+## Sub-algoritmo 1
 E0 (resp_usuario, resp_correcta)
 cont_mate=0
 si resp_usuario==resp_correcta
@@ -37,7 +37,7 @@ si no entonces
   imprime ("Mal, que lástima")
   EF(imprime ("resp_correcta"))
   
-###Sub-algoritmo 2
+## Sub-algoritmo 2
 E0 (resp_usuario, resp_correcta)
 cont_lin=0
 si resp_usuario==resp_correcta
@@ -48,7 +48,7 @@ si no entonces
   EF(imprime ("resp_correcta"))
 
   
-##Algoritmo
+## Algoritmo
 
 E0(Nombre, edad)
 
