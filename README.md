@@ -29,20 +29,13 @@ Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a tr
 
 ### Sub-algoritmo 1
 E0 (resp_usuario, resp_correcta)
-
-cont_mate=0
-
-si resp_usuario==resp_correcta
-
-  imprime ("Correcto, eres muy listo")
-  
-  cont_mate= cont_mate+1
-  
-si no entonces
-
-  imprime ("Mal, que lástima")
-  
-  EF(imprime ("resp_correcta"))
+\ncont_mate=0
+\nsi resp_usuario==resp_correcta
+  \nimprime ("Correcto, eres muy listo")
+  \ncont_mate= cont_mate+1
+\nsi no entoncee
+ \nimprime ("Mal, que lástima")
+  \nEF(imprime ("resp_correcta"))
   
   
 ### Sub-algoritmo 2
