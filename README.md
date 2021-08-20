@@ -72,11 +72,11 @@ imprime ("Bienvenido a este test de inteligencia")
 
 imprime ("Sección: Matemáticas")
 
-imprime (Pregunta 1)
+imprime ("Pregunta 1")
 
 Sub-algoritmo 1
 
-imprime (Pregunta 2)
+imprime ("Pregunta 2")
 
 Sub-algoritmo 1
 
@@ -94,11 +94,11 @@ si no entonces
   
 imprime ("Sección: Lingüística")
 
-imprime (Pregunta 1)
+imprime ("Pregunta 1")
 
 Sub-algoritmo 2
 
-imprime (Pregunta 2)
+imprime ("Pregunta 2")
 
 Sub-algoritmo 2
 
