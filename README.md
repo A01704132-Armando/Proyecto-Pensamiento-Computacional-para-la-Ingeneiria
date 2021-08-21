@@ -4,7 +4,7 @@
 
 Antes de 1983, era comunmente pensado que la inteligencia de un individuo dependía de su capacidad para resolver problemas matemáticos y lógicos. Sin embargo, en 1983 **Howard Gardner**, profesor de la Universidad de Harvard pensaba que la inteligencia es una red de conjuntos autónomos interrelacionados entre si (CEOLEVEL, 2016).
 
-Todas las personas nos destacamos por tener una inteligencia más desarrollada que otras. Y esto es intersante, ya que todos somos diferentes y tenemos inteligencias distintas, además las desarrollamos de manera diferente. 
+Todas las personas nos destacamos por tener una inteligencia más desarrollada que otras. Y esto es intersante, ya que esto es otra prueba de que todos somos diferentes y tenemos inteligencias distintas, además las desarrollamos de manera diferente. 
 
 Hasta la fecha, se han identificado ocho tipos distintos de inteligencia: lingüístico-verbal, lógico-matemática, viso-espacial, musical, corpóral-cinestésica, intrapersonal, interpersonal y naturalista.
 
