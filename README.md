@@ -8,14 +8,14 @@ Todas las personas nos destacamos por tener una inteligencia más desarrollada q
 
 Hasta la fecha, se han identificado ocho tipos distintos de inteligencia: lingüístico-verbal, lógico-matemática, viso-espacial, musical, corpóral-cinestésica, intrapersonal, interpersonal y naturalista.
 
-Lingüística (o verbal-lingüística): Habilidad para utilizar con un dominio avanzado el lenguaje oral y escrito.
-Lógico-matemática: Habilidad para el razonamiento complejo, la relación causa-efecto, la abstracción y la resolución de problemas.
-Espacial: Capacidad de percibir el mundo y poder crear imágenes mentales a partir de la experiencia visual. 
-Corporal (o quinestésica): Habilidad de utilizar el cuerpo para aprender y para expresar ideas y sentimientos. Incluye el dominio de habilidades físicas.
-Musical (o rítmica): Habilidad de saber utilizar y responder a los diferentes elementos musicales.
-Intrapersonal (o individual): Habilidad de comprenderse a sí mismo y utilizar este conocimiento para operar de manera efectiva en la vida.
-Interpersonal (o social): Habilidad de interactuar y comprender a las personas y sus relaciones.
-Naturalista: Habilidad para el pensamiento científico, para observar la naturaleza, identificar patrones y utilizarla de manera productiva.
+<p>>Lingüística (o verbal-lingüística): Habilidad para utilizar con un dominio avanzado el lenguaje oral y escrito.</p>
+<p>>Lógico-matemática: Habilidad para el razonamiento complejo, la relación causa-efecto, la abstracción y la resolución de problemas.</p>
+<p>>Espacial: Capacidad de percibir el mundo y poder crear imágenes mentales a partir de la experiencia visual. </p>
+<p>>Corporal (o quinestésica): Habilidad de utilizar el cuerpo para aprender y para expresar ideas y sentimientos. Incluye el dominio de habilidades físicas.</p>
+<p>>Musical (o rítmica): Habilidad de saber utilizar y responder a los diferentes elementos musicales.</p>
+<p>>Intrapersonal (o individual): Habilidad de comprenderse a sí mismo y utilizar este conocimiento para operar de manera efectiva en la vida.</p>
+<p>>Interpersonal (o social): Habilidad de interactuar y comprender a las personas y sus relaciones.</p>
+<p>>Naturalista: Habilidad para el pensamiento científico, para observar la naturaleza, identificar patrones y utilizarla de manera productiva.</p>
 
 Fuente: 
 CEOLEVEL. (26 de Agosto de 2016). 8 Inteligencias – La teoría de las inteligencias múltiples. Obtenido de CEOLEVEL: https://www.ceolevel.com/8-inteligencias-la-teoria-de-las-inteligencias-multiples
@@ -27,7 +27,7 @@ Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a tr
 
 ### Algoritmo
 
-### Sub-algoritmo 1
+#### Sub-algoritmo 1
 E0 (resp_usuario, resp_correcta)
 
 cont_mate=0
@@ -45,7 +45,7 @@ si no entonces
   EF(imprime ("resp_correcta"))
   
   
-### Sub-algoritmo 2
+#### Sub-algoritmo 2
 E0 (resp_usuario, resp_correcta)
 
 cont_lin=0
@@ -63,7 +63,7 @@ si no entonces
   EF(imprime ("resp_correcta"))
 
   
-### Algoritmo
+#### Algoritmo
 
 E0(Nombre, edad)
 
