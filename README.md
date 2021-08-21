@@ -87,7 +87,7 @@ Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a tr
 <p>si cont_mate>cont_lin</p>
   <p>imprime (Nombre_usuario,"Tu inteligencia dominante sin duda es la matemática, se nota que se te dan los números :D")</p>
   
-<p>si cont_mate<cont_lin</p>
+<p>si cont_lin>cont_mate</p>
  <p> imprime(Nombre_usuario,"Tu inteligencia dominante sin duda es la lingüística, eres todo un poeta :p")</p>
   
 <p>si no</p>
