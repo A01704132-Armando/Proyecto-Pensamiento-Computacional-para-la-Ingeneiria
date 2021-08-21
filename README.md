@@ -53,7 +53,7 @@ Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a tr
   
 #### Algoritmo
 
-<p>E0(Nombre, edad)</p>
+<p>E0(Nombre_usaurio, edad)</p>
 
 <p>imprime ("Bienvenido a este test de inteligencia")</p>
 <p>imprime ("Sección: Matemáticas")</p>
@@ -85,13 +85,13 @@ Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a tr
  <p> Sub-algoritmo 2</p>
   
 <p>si cont_mate>cont_lin</p>
-  <p>imprime ("Tu inteligencia dominante sin duda es la matemática, se nota que se te dan los números :D")</p>
+  <p>imprime (Nombre_usuario,"Tu inteligencia dominante sin duda es la matemática, se nota que se te dan los números :D")</p>
   
 <p>si cont_mate<cont_lin</p>
- <p> imprime("Tu inteligencia dominante sin duda es la lingüística, eres todo un poeta :p")</p>
+ <p> imprime(Nombre_usuario,"Tu inteligencia dominante sin duda es la lingüística, eres todo un poeta :p")</p>
   
 <p>si no</p>
-<p>imprime ("Dominas ambas inteligencias por igual")</p>
+<p>imprime (Nombre_usuario,"Dominas ambas inteligencias por igual")</p>
 
 
 <p>EF (Rregresa cont_mate y cont_lin)</p>
