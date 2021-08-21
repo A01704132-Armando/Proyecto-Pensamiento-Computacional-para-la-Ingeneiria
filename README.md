@@ -2,7 +2,7 @@
 
 ### Contexto
 
-Antes de 1983, la inteligencia de un individuo dependía de su capacidad para resolver problemas matemáticos y lógicos. Sin embargo, en 1983 Howard Gardner, profesor de la Universidad de Harvard pensaba que la inteligencia es una red de conjuntos autónomos interrelacionados entre si (CEOLEVEL, 2016).
+Antes de 1983, la inteligencia de un individuo dependía de su capacidad para resolver problemas matemáticos y lógicos. Sin embargo, en 1983 **Howard Gardner**, profesor de la Universidad de Harvard pensaba que la inteligencia es una red de conjuntos autónomos interrelacionados entre si (CEOLEVEL, 2016).
 
 Todas las personas nos destacamos por tener una inteligencia más desarrollada que otras. Y esto es intersante, ya que todos somos diferentes y tenemos inteligencias distintas, además las desarrollamos de manera diferente. 
 
@@ -28,107 +28,71 @@ Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a tr
 ### Algoritmo
 
 #### Sub-algoritmo 1
-E0 (resp_usuario, resp_correcta)
+<p>E0 (resp_usuario, resp_correcta)</p>
+<p>cont_mate=0</p>
+<p>si resp_usuario==resp_correcta</p>
+ <p> imprime ("Correcto, eres muy listo")</p>
+  <p>cont_mate= cont_mate+1</p>
+<p>si no entonces</p>
+<p> imprime ("Mal, que lástima")</p>
+  <p>EF(imprime ("resp_correcta"))</p>
 
-cont_mate=0
-
-si resp_usuario==resp_correcta
-
-  imprime ("Correcto, eres muy listo")
-  
-  cont_mate= cont_mate+1
-  
-si no entonces
-
- imprime ("Mal, que lástima")
- 
-  EF(imprime ("resp_correcta"))
-  
   
 #### Sub-algoritmo 2
-E0 (resp_usuario, resp_correcta)
-
-cont_lin=0
-
-si resp_usuario==resp_correcta
-
-  imprime ("Correcto, eres muy listo")
-  
-  cont_lin= cont_lin+1
-  
-si no entonces
-
-  imprime ("Mal, que lástima")
-  
-  EF(imprime ("resp_correcta"))
+<p>E0 (resp_usuario, resp_correcta)</p>
+<p>cont_lin=0</p>
+<p>si resp_usuario==resp_correcta</p>
+ <p> imprime ("Correcto, eres muy listo")</p>
+  <p>cont_lin= cont_lin+1</p>
+<p>si no entonces</p>
+ <p> imprime ("Mal, que lástima")</p>
+ <p> EF(imprime ("resp_correcta"))</p>
 
   
 #### Algoritmo
 
-E0(Nombre, edad)
+<p>E0(Nombre, edad)</p>
 
+<p>imprime ("Bienvenido a este test de inteligencia")</p>
+<p>imprime ("Sección: Matemáticas")</p>
+<p>imprime ("Pregunta 1")</p>
+<p>Sub-algoritmo 1</p>
+<p>imprime ("Pregunta 2")</p>
+<p>Sub-algoritmo 1</p>
 
-imprime ("Bienvenido a este test de inteligencia")
-
-imprime ("Sección: Matemáticas")
-
-imprime ("Pregunta 1")
-
-Sub-algoritmo 1
-
-imprime ("Pregunta 2")
-
-Sub-algoritmo 1
-
-si cont_mate=2
-
-  imprime ("Pregunta 3 versión difícil")
+<p>si cont_mate=2</p>
+<p> imprime ("Pregunta 3 versión difícil")</p>
+ <p> Subalgoritmo 1</p>
   
-  Subalgoritmo 1
+<p>si no entonces</p>
+ <p> imprime ("Pregunta 3 versión fácil")</p>
+ <p> Sub-algoritmo 1</p>
   
-si no entonces
+<p>imprime ("Sección: Lingüística")</p>
+<p>imprime ("Pregunta 1")</p>
+<p>Sub-algoritmo 2</p>
+<p>imprime ("Pregunta 2")</p>
+<p>Sub-algoritmo 2</p>
 
-  imprime ("Pregunta 3 versión fácil")
+<p>si cont_lin=2</p>
+ <p> imprime ("Pregunta 3 versión difícil")</p>
+ <p> Subalgoritmo 2</p>
   
-  Sub-algoritmo 1
+<p>si no entonces</p>
+ <p> imprime ("Pregunta 3 versión fácil")</p>
+ <p> Sub-algoritmo 2</p>
   
-imprime ("Sección: Lingüística")
-
-imprime ("Pregunta 1")
-
-Sub-algoritmo 2
-
-imprime ("Pregunta 2")
-
-Sub-algoritmo 2
-
-si cont_lin=2
-
-  imprime ("Pregunta 3 versión difícil")
+<p>si cont_mate>cont_lin</p>
+  <p>imprime ("Tu inteligencia dominante sin duda es la matemática, se nota que se te dan los números :D")</p>
   
-  Subalgoritmo 2
+<p>si cont_mate<cont_lin</p>
+ <p> imprime("Tu inteligencia dominante sin duda es la lingüística, eres todo un poeta :p")</p>
   
-si no entonces
-
-  imprime ("Pregunta 3 versión fácil")
-  
-  Sub-algoritmo 2
-  
-
-Si cont_mate>cont_lin
-
-  imprime ("Tu inteligencia dominante sin duda es la matemática, se nota que se te dan los números :D")
-  
-Si cont_mate<cont_lin
-
-  imprime("Tu inteligencia dominante sin duda es la lingüística, eres todo un poeta :p")
- 
-Si no
-
-imprime ("Dominas ambas inteligencias por igual")
+<p>si no</p>
+<p>imprime ("Dominas ambas inteligencias por igual")</p>
 
 
-EF (Rregresa cont_mate y cont_lin)
+<p>EF (Rregresa cont_mate y cont_lin)</p>
   
 
 
