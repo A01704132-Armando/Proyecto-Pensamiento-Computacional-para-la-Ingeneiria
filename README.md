@@ -19,7 +19,7 @@ Hasta la fecha, se han identificado ocho tipos distintos de inteligencia: lingü
 
 ![Los 8 tipos de inteligencias](https://blog.teachlr.com/wp-content/uploads/2019/08/xArtboard-1-960x540.png.pagespeed.ic.mPGemoYeha.png)
 
-Fuente: 
+**Fuente:** 
 CEOLEVEL. (26 de Agosto de 2016). 8 Inteligencias – La teoría de las inteligencias múltiples. Obtenido de CEOLEVEL: https://www.ceolevel.com/8-inteligencias-la-teoria-de-las-inteligencias-multiples
 
 ### Mi programa
