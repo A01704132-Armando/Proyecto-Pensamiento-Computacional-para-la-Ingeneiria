@@ -17,6 +17,8 @@ Hasta la fecha, se han identificado ocho tipos distintos de inteligencia: lingü
 <p>>Interpersonal (o social): Habilidad de interactuar y comprender a las personas y sus relaciones.</p>
 <p>>Naturalista: Habilidad para el pensamiento científico, para observar la naturaleza, identificar patrones y utilizarla de manera productiva.</p>
 
+![Los 8 tipos de inteligencias](https://www.liderdelemprendimiento.com/wp-content/uploads/2019/05/Los-8-tipos-de-Inteligencia-seg%C3%BAn-Howard-Gardner-3000x1740.jpg)
+
 Fuente: 
 CEOLEVEL. (26 de Agosto de 2016). 8 Inteligencias – La teoría de las inteligencias múltiples. Obtenido de CEOLEVEL: https://www.ceolevel.com/8-inteligencias-la-teoria-de-las-inteligencias-multiples
 
@@ -62,7 +64,7 @@ Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a tr
 
 <p>si cont_mate=2</p>
 <p> imprime ("Pregunta 3 versión difícil")</p>
- <p> Subalgoritmo 1</p>
+ <p> Sub-algoritmo 1</p>
   
 <p>si no entonces</p>
  <p> imprime ("Pregunta 3 versión fácil")</p>
@@ -76,7 +78,7 @@ Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a tr
 
 <p>si cont_lin=2</p>
  <p> imprime ("Pregunta 3 versión difícil")</p>
- <p> Subalgoritmo 2</p>
+ <p> Sub-algoritmo 2</p>
   
 <p>si no entonces</p>
  <p> imprime ("Pregunta 3 versión fácil")</p>
