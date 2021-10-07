@@ -7,7 +7,7 @@ def Aceleracion (Vo, Vf, t):
 
 def Regla_de_tres (v1, v2, v3):
     return v1*v2/v3
-###Función lista
+
 def Probabilidad (lista):
     Total=sum(lista)
     Grupo_interes=lista[2]+lista[3]
