@@ -60,7 +60,7 @@ def modulo_vector_resultante (matriz):
     return Modulo
 
     """
-    (uso de operadores, uso de funciones, uso de condcionales,uso de ciclos)
+    (uso de operadores, uso de funciones, uso de condiconales,uso de ciclos)
     recibe: 1 contador y la respuesta correcta
     devuelve: Si el usuario introduce la respuesta correcta devuelve
     un punto en matemáticas
@@ -84,7 +84,7 @@ def Intentos_mate (Res_correcta, cont_mate):
         
 
     """
-    (uso de operadores, uso de funciones, uso de condcionales,uso de ciclos)
+    (uso de operadores, uso de funciones, uso de condiconales,uso de ciclos)
     recibe: 1 contador y la respuesta correcta
     devuelve: Si el usuario introduce la respuesta correcta devuelve
     un punto en español
