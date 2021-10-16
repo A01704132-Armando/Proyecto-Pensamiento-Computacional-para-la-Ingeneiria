@@ -1,8 +1,0 @@
-Correciones José Armando Rosas Balderas
-A01704132
-
-Subcompetencia
-	El estilo cumple con las normas y estándares enunciadas en el documento de PEP 8  (Final)
-Error original:
-	Escribí líneas de código muy extensas
-Cambio realizado: Modfque todas las lìneas de códigoque eran muy largas por línea y las separé en espacios. 
