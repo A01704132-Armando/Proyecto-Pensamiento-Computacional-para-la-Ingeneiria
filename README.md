@@ -28,6 +28,8 @@ CEOLEVEL. (26 de Agosto de 2016). 8 Inteligencias – La teoría de las intelige
 
 Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a través de ciertas preguntas relacionadas al tema. Para evaluar cada inteligencia se presentarán 3 preguntas, donde si el usuario tuvo bien las 2 preguntas iniciales, la tercera será más complicada o si solo tuvo una bien o ninguna, la computadora arrojará una pregunta más fácil. Para cada pregunta, el usuario contara con dos intentos. Al final se te darán tus resultados y una breve frase diciendo cual es tu inteligencia dominante o te dirá que ambas de tus inteligencias están igual de desarrolladas en caso de no tener una dominante.
 
+Pagina donde revise la librería empleada en el programa: https://docs.python.org/es/3/library/math.html#module-math
+
 
 ### Algoritmo
 
