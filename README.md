@@ -35,13 +35,13 @@ Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a tr
 <p>E0 (resp_usuario, resp_correcta)</p>
 <p>i=0</p>
 <p>Mientras i<2</p>
- <p>si resp_usuario==resp_correcta</p>
-  <p> imprime ("Correcto, eres muy listo")</p>
-  <p>EF cont_mate= cont_mate+1 y sale del ciclo</p>
- <p>si resp_usuario!=resp_correcta</p>
-  <p> imprime ("Mal, intenta de nuevo")</p>
-  <p>i=i+1</p>
- <p>imprime("Se agotaron tus intentos")</p>
+ <p> si resp_usuario==resp_correcta</p>
+  <p>   imprime ("Correcto, eres muy listo")</p>
+  <p>  EF cont_mate= cont_mate+1 y sale del ciclo</p>
+ <p> si resp_usuario!=resp_correcta</p>
+  <p>   imprime ("Mal, intenta de nuevo")</p>
+  <p>  i=i+1</p>
+ <p>  imprime("Se agotaron tus intentos")</p>
  <p>EF cont_mate</p>
 
   
@@ -49,13 +49,13 @@ Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a tr
 <p>E0 (resp_usuario, resp_correcta)</p>
 <p>i=0</p>
 <p>Mientras i<2</p>
- <p>si resp_usuario==resp_correcta</p>
-  <p> imprime ("Correcto, eres muy listo")</p>
-  <p>EF cont_Español= cont_Español+1 y sale del ciclo</p>
- <p>si resp_usuario!=resp_correcta</p>
-  <p> imprime ("Mal, intenta de nuevo")</p>
-  <p>i=i+1</p>
- <p>imprime("Se agotaron tus intentos")</p>
+ <p> si resp_usuario==resp_correcta</p>
+  <p>   imprime ("Correcto, eres muy listo")</p>
+  <p>  EF cont_Español= cont_Español+1 y sale del ciclo</p>
+ <p> si resp_usuario!=resp_correcta</p>
+  <p>   imprime ("Mal, intenta de nuevo")</p>
+  <p>  i=i+1</p>
+ <p>  imprime("Se agotaron tus intentos")</p>
  <p>EF cont_Español</p>
  
   
