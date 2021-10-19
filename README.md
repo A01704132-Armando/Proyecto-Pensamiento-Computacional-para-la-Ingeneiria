@@ -72,12 +72,12 @@ Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a tr
 <p>Sub-algoritmo 1</p>
 
 <p>si cont_mate=2</p>
-<p> imprime ("Pregunta 3 versión difícil")</p>
- <p> Sub-algoritmo 1</p>
+<p> -imprime ("Pregunta 3 versión difícil")</p>
+ <p> -Sub-algoritmo 1</p>
   
 <p>si no entonces</p>
- <p> imprime ("Pregunta 3 versión fácil")</p>
- <p> Sub-algoritmo 1</p>
+ <p> -imprime ("Pregunta 3 versión fácil")</p>
+ <p>- Sub-algoritmo 1</p>
   
 <p>imprime ("Sección: Español")</p>
 <p>cont_Español=0</p>
@@ -87,21 +87,21 @@ Este programa planea evaluar 2 de esas inteligencias (verbal y matemática) a tr
 <p>Sub-algoritmo 2</p>
 
 <p>si cont_Español=2</p>
- <p> imprime ("Pregunta 3 versión difícil")</p>
- <p> Sub-algoritmo 2</p>
+ <p> -imprime ("Pregunta 3 versión difícil")</p>
+ <p> -Sub-algoritmo 2</p>
   
 <p>si no entonces</p>
- <p> imprime ("Pregunta 3 versión fácil")</p>
- <p> Sub-algoritmo 2</p>
+ <p> -imprime ("Pregunta 3 versión fácil")</p>
+ <p> -Sub-algoritmo 2</p>
   
 <p>si cont_mate>cont_Español</p>
-  <p>imprime (Nombre_usuario,"Tu inteligencia dominante sin duda es la matemática, se nota que se te dan los números :D")</p>
+  <p>-imprime (Nombre_usuario,"Tu inteligencia dominante sin duda es la matemática, se nota que se te dan los números :D")</p>
   
 <p>si cont_Español>cont_mate</p>
- <p> imprime(Nombre_usuario,"Tu inteligencia dominante sin duda es la lingüística, eres todo un poeta :p")</p>
+ <p> -imprime(Nombre_usuario,"Tu inteligencia dominante sin duda es la lingüística, eres todo un poeta :p")</p>
   
 <p>si no</p>
-<p>imprime (Nombre_usuario,"Dominas ambas inteligencias por igual")</p>
+<p>-imprime (Nombre_usuario,"Dominas ambas inteligencias por igual")</p>
 
 
 <p>EF (Rregresa cont_mate y cont_lin)</p>
