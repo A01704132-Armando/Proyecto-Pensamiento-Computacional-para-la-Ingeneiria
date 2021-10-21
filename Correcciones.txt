@@ -1,0 +1,32 @@
+Correciones José Armando Rosas Balderas
+A01704132
+
+Subcompetencia
+	El estilo cumple con las normas y estándares enunciadas en el documento de PEP 8  (Final)
+Error original:
+	Escribí líneas de código muy extensas
+	Me faltó escribir mis comentarios de cada función
+Cambio realizado: Modifique todas las líneas de código que eran muy largas por línea y las separé en espacios. 
+
+
+
+Subcompetencia
+	Incorpora y explica nuevas funciones en su progra e incluya su referencias al API de pythoon. (Final)
+Error original:
+	No use ninguna librería investigada en internet ni referencie
+
+Cambio realizado: Investigue más a fondo sobre uan librería, la aplique en mi proyecto y la referencie
+
+#Biblioteca
+"""
+Esta biblioteca la investigue más a fondo en la página
+https://docs.python.org/es/3/library/math.html#module-math la 
+cual contiene varias funciones para trabajar procesos matemáticos
+de manera más rápida. En mi programa utilice la función sqrt, para 
+raíces cuadradas y pow, para potencias
+"""
+
+import math
+"""
+
+
